@@ -1,0 +1,234 @@
+body {
+	font-family: sans-serif;
+}
+
+button {
+	height: 100%;
+	width: 100%;
+}
+
+.headerGrid {
+	display: grid;
+	grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+	grid-template-rows: 10px 20px 30px 20px 10px;
+}
+
+.headerGrid .item1 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.headerGrid .item2 {
+	grid-column-start: 9;
+	grid-column-end: 12;
+	grid-row-start: 2;
+	grid-row-end: 5;
+	width: 100%;
+	height: 70px;
+}
+
+.headerGrid .item3 {
+	grid-column-start: 15;
+	grid-column-end: 17;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	margin-top: 10px;
+}
+
+.headerGrid .item4 {
+	grid-column-start: 18;
+	grid-column-end: 20;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	margin-top: 10px;
+}
+
+.footerGrid {
+	display: grid;
+	grid-template-columns: 2% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 
+	2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 2.5% 3%;
+	grid-template-rows: 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
+}
+
+.footerGrid .item1_1 {
+	grid-column-start: 4;
+	grid-column-end: 10;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	font-weight: 100;
+}
+
+.footerGrid .item1_2 {
+	grid-column-start: 4;
+	grid-column-end: 10;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	font-weight: 100;
+}
+
+.footerGrid .item1_3 {
+	grid-column-start: 4;
+	grid-column-end: 10;
+	grid-row-start: 6;
+	grid-row-end: 7;
+	font-weight: 100;
+}
+
+.footerGrid .item1_4 {
+	grid-column-start: 4;
+	grid-column-end: 10;
+	grid-row-start: 8;
+	grid-row-end: 9;
+	font-weight: 100;
+}
+
+.footerGrid .item2_1 {
+	grid-column-start: 14;
+	grid-column-end: 20;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	font-weight: 100;
+}
+
+.footerGrid .item2_2 {
+	grid-column-start: 14;
+	grid-column-end: 20;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	font-weight: 100;
+}
+
+.footerGrid .item2_3 {
+	grid-column-start: 14;
+	grid-column-end: 20;
+	grid-row-start: 6;
+	grid-row-end: 7;
+	font-weight: 100;
+}
+
+.footerGrid .item2_4 {
+	grid-column-start: 14;
+	grid-column-end: 20;
+	grid-row-start: 8;
+	grid-row-end: 9;
+	font-weight: 100;
+}
+
+.footerGrid .item2_5 {
+	grid-column-start: 14;
+	grid-column-end: 20;
+	grid-row-start: 10;
+	grid-row-end: 11;
+	font-weight: 100;
+}
+
+.footerGrid .item3_1 {
+	grid-column-start: 24;
+	grid-column-end: 30;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	font-weight: 100;
+}
+
+.footerGrid .item3_2 {
+	grid-column-start: 24;
+	grid-column-end: 30;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	font-weight: 100;
+}
+
+.footerGrid .item3_3 {
+	grid-column-start: 24;
+	grid-column-end: 30;
+	grid-row-start: 6;
+	grid-row-end: 7;
+	font-weight: 100;
+}
+
+.footerGrid .item3_4 {
+	grid-column-start: 24;
+	grid-column-end: 30;
+	grid-row-start: 8;
+	grid-row-end: 9;
+	font-weight: 100;
+}
+
+.footerGrid .item4_1 {
+	grid-column-start: 33;
+	grid-column-end: 38;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	font-weight: 100;
+}
+
+.footerGrid .item4_2 {
+	grid-column-start: 33;
+	grid-column-end: 38;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	font-weight: 100;
+}
+
+.footerGrid .item4_3 {
+	grid-column-start: 33;
+	grid-column-end: 38;
+	grid-row-start: 6;
+	grid-row-end: 7;
+	font-weight: 100;
+}
+
+.footerGrid .item4_4 {
+	grid-column-start: 33;
+	grid-column-end: 38;
+	grid-row-start: 8;
+	grid-row-end: 9;
+	font-weight: 100;
+}
+
+.footerGrid .item4_5 {
+	grid-column-start: 33;
+	grid-column-end: 38;
+	grid-row-start: 10;
+	grid-row-end: 11;
+	font-weight: 100;
+}
+
+.footerGrid .item4_6 {
+	grid-column-start: 33;
+	grid-column-end: 38;
+	grid-row-start: 12;
+	grid-row-end: 13;
+	font-weight: 100;
+}
+
+.footerGrid .box1 {
+	grid-column-start: 1;
+	grid-column-end: 41;
+	grid-row-start: 15;
+	grid-row-end: 18;
+	background-color: #f5f3f4;
+}
+
+.footerGrid .item1 {
+	grid-column-start: 4;
+	grid-column-end: 8;
+	grid-row-start: 16;
+	grid-row-end: 17;
+}
+
+.footerGrid .item2 {
+	grid-column-start: 10;
+	grid-column-end: 14;
+	grid-row-start: 16;
+	grid-row-end: 17;
+}
+
+.footerGrid .item3 {
+	grid-column-start: 16;
+	grid-column-end: 20;
+	grid-row-start: 16;
+	grid-row-end: 17;
+}
